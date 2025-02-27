@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title data-pl="O mnie" data-en="About me">O mnie</title>
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--CSS file-->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!--<p class="poppins-regular">Regular</p>
+    <p class="poppins-light">Light</p>
+    <p class="poppins-extralight">Extra Light</p>-->
+
+    <!--header-->
+    <header>
+      <nav class="navbar">
+        <!--<img src="Drawing.png" class="logo" />-->
+        <ul class="links-container" style="list-style: none">
+          <li class="link-items poppins-light">
+            <a href="#me-section" class="links" data-pl="O mnie" data-en="About me">O mnie</a>
+          </li>
+          <li class="link-items poppins-light">
+            <a href="#why-section" class="links" data-pl="Moja motywacja" data-en="My motivation">Moja motywacja</a>
+          </li>
+          <li class="link-items poppins-light">
+            <a href="#contact-section" class="links" data-pl="Kontakt" data-en="Contact">Kontakt</a>
+          </li>
+          <li class="link-items poppins-light">
+            <button onclick="changelang()" class="js-change-button">ENG</button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+      <!--main content-->
+      
+      <main>
+        <section id="me-section">
+          <div class="me-info">
+            <p class="poppins-extralight" style="font-size: 40px; color: #314759;"> ev_044_10663_</p>
+            <table>
+              <tr>
+                <td rowspan="1"><img src="my-pic-copy.jpg" class="my-pic" /></td>
+                <td colspan="4"><p class="poppins-regular" style="font-size: 100px; padding: 20px; vertical-align: bottom; ""><b>Ewa</b><br>Wojciechowska</p></td>
+              </tr>
+              <tr>
+                <td><td>
+                <td>
+                  <p class="header-me-section" data-pl="Wykształcenie" data-en="Education">Wykształcenie</p>
+                </td>
+                <td>
+                  <p class="header-me-section" data-pl="Umiejętności i predyspozycje" data-en="Skills and predispositions">Umiejętności i predyspozycje</p>
+
+                </td>
+                <td>
+                  <p class="header-me-section" data-pl="Zainteresowania" data-en="Interests">Zainteresowania</p>
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td><ul>
+                  <li>
+                    <b>
+                      <p class="first-table" data-pl="Akademia Nauk Stosowanych im. Hipolita Cegielskiego w Gnieźnie" data-en="University of Applied Sciences in Gniezno">Akademia Nauk Stosowanych im. Hipolita Cegielskiego w Gnieźnie</p>
+                    </b>
+                    <p class="schools" data-pl="- 2025r. – uzyskany tytuł: inżynier," data-en="- 2025 - obtained degree: Engineer,">- 2025r. – uzyskany tytuł: inżynier,</p>
+                    <p class="schools" data-pl="- studia na kierunku: Informatyka," data-en="- field of study: Computer Science,">- studia na kierunku: Informatyka,</p>
+                    <p class="schools" data-pl="- specjalność: Systemy informatyczne" data-en="- specialization: Information Systems">- specjalność: Systemy informatyczne</p>
+                  </li>
+                  <li>
+                    <b>
+                      <p class="first-table" data-pl="Zespół Państwowych Szkół Muzycznych w Gnieźnie" data-en="The State Music Schools Complex in Gniezno">Zespół Państwowych Szkół Muzycznych w Gnieźnie</p>
+                    </b>
+                    <p class="schools" data-pl="- 2015r. – 2021r.," data-en="- 2015r. – 2021r.,">- 2015r. – 2021r.,</p>
+                    <p class="schools" data-pl="- instrument: organy," data-en="- instrument: organ,">- instrument: organy,</p>
+                    <p class="schools" data-pl="- wyróżnienie na XIV Festiwalu Młodych Organistów w Białymstoku." data-en="- honorable mention at the XIV Festival of Young Organists in Białystok.">- wyróżnienie na XIV Festiwalu Młodych Organistów w Białymstoku.</p>
+                  </li>
+                  
+                 <!--<li>school 3</li>--> 
+               </ul> </td>
+                <td><ul>
+                  <li><p class="first-table" data-pl="dobra znajomość języków programowania: Python, C++, SQL," data-en="good knowledge of programming languages: Python, C++, SQL,">dobra znajomość języków programowania: Python, C++, SQL,</p></li> 
+                  <li><p class="first-table" data-pl="podstawowa znajomość JavaScript," data-en="basic knowledge of JavaScript,">podstawowa znajomość JavaScript,</p></li>
+                  <li><p class="first-table" data-pl="znajomość HTML," data-en="knowledge of HTML,">znajomość HTML,</p></li>
+                  <li><p class="first-table" data-pl="znajomość języka angielskiego na poziomie B1," data-en="proficiency in English at a B1 level,">znajomość języka angielskiego na poziomie B1,</p></li>
+                  <li><p class="first-table" data-pl="dobra znajomość matematyki," data-en="good knowledge of mathematics,">dobra znajomość matematyki,</p></li>
+                  <li><p class="first-table" data-pl="prawo jazdy kat. B," data-en="category B driving license,">prawo jazdy kat. B,</li>
+                  <li><p class="first-table" data-pl="dokładność, punktualność, umiejętność szybkiego uczenia." data-en="thoroughness, punctuality, ability to learn quickly.">dokładność, punktualność, umiejętność szybkiego uczenia.</p>
+                    </li>
+                  <!--<li>skill 2</li>
+                  <li>skill 3</li>-->
+               </ul> </td>
+               <td>
+                <ul>
+                  <li><p class="first-table" data-pl="gra na pianinie i gitarze," data-en="playing piano and guitar,">gra na pianinie i gitarze,</p></li>
+                  <li><p class="first-table" data-pl="rysowanie, szkicowanie," data-en="drawing, sketching, ">rysowanie, szkicowanie,</p> </li>
+                  <li><p class="first-table" data-pl="tworzenie sztuki cyfrowej w programach Procreate, Krita." data-en="creating digital art using Procreate, Krita.">tworzenie sztuki cyfrowej w programach Procreate, Krita.</p>
+                    </li>
+               </ul> 
+               </td>
+              </tr>
+            </table>
+          </div>
+          
+        </section>
+
+        <section id="why-section">
+          <div >
+            <p class="me-paragraph poppins-regular"
+            style="font-size: 70px" data-pl="Moja motywacja" data-en="My motivation">Moja motywacja</p>
+            <p class="poppins-extralight" style="font-size: 25px; text-align: justify;" data-pl="Nazywam się Ewa Wojciechowska. W tym roku ukończyłam studia pierwszego stopnia, zdobywając tytuł inżyniera. 
+            Moja praca dotyczyła zaprojektowania aplikacji wykorzystującej algorytm wspomagający proces pakowania 
+            bagażu dla osób podróżujących samolotami. Projekt realizowany był zespołowo, a moim zadaniem było 
+            zaimplementowanie algorytmu oraz zaprojektowanie wizualnej strony aplikacji.</br>
+            
+            Studia umożliwiły mi zdobycie solidnych umiejętności technicznych oraz dały motywację do dalszego kształcenia. 
+            Od marca rozpoczynam studia drugiego stopnia na Politechnice Poznańskiej 
+            i zależy mi na wykorzystaniu mojej wiedzy w praktyce. Uważam, że praca lub praktyki zawodowe pozwolą mi sprawdzić 
+            swoje umiejętności i jednocześnie lepiej określić kierunek mojego rozwoju zawodowego.</br>
+            
+            Moje zainteresowania obejmują różne dziedziny — zarówno techniczne, jak i artystyczne. 
+            Ukończyłam szkołę muzyczną drugiego stopnia, brałam udział w licznych konkursach i występowałam na koncertach, co pozwoliło 
+            mi rozwinąć pewność siebie oraz umiejętność zarządzania czasem. W wolnych chwilach tworzę animacje, rysuję oraz 
+            projektuję aplikacje.</br>
+            
+            W przyszłości pragnę pracować na stanowisku, które pozwoli mi wykazać się kreatywnością oraz będzie stawiać przede mną 
+            nowe wyzwania związane z rozwojem technologii.</br></br>
+          " data-en="My name is Ewa Wojciechowska. This year, I graduated with a Bachelor's degree in Engineering. My project focused on designing an application that 
+            uses an algorithm to assist the process of packing luggage for airline passengers. The project was carried out as part of a team, and my responsibility was 
+            implementing the algorithm and designing the visual aspect of the application.</br></br>
+            Although my undergraduate studies provided me with valuable technical skills, I am eager to continue my education. Starting in March, I will begin my Master's 
+            studies at the Poznań University of Technology. However, I want to apply my knowledge in a practical setting. I believe the best approach is to find a job or internship 
+            where I can test my skills and, at the same time, better define the direction of my professional development.</br></br>
+            I have a strong passion for learning in various fields — particularly technical and artistic areas. I graduated from a music school of the second degree, 
+            participated in numerous competitions, and performed at concerts. These experiences helped me build confidence and develop strong time-management skills. 
+            In my free time, I enjoy drawing, creating animations, and designing applications.</br></br>
+            In the future, I would love to work in a position where I can showcase my creativity while facing new challenges related to technological advancements.</br></br></br>">Nazywam się Ewa Wojciechowska. W tym roku ukończyłam studia pierwszego stopnia, zdobywając tytuł inżyniera. 
+            Moja praca dotyczyła zaprojektowania aplikacji wykorzystującej algorytm wspomagający proces pakowania 
+            bagażu dla osób podróżujących samolotami. Projekt realizowany był zespołowo, a moim zadaniem było 
+            zaimplementowanie algorytmu oraz zaprojektowanie wizualnej strony aplikacji.</br></br>
+            
+            Studia umożliwiły mi zdobycie solidnych umiejętności technicznych oraz dały motywację do dalszego kształcenia. 
+            Od marca rozpoczynam studia drugiego stopnia na Politechnice Poznańskiej 
+            i zależy mi na wykorzystaniu mojej wiedzy w praktyce. Uważam, że praca lub praktyki zawodowe pozwolą mi sprawdzić 
+            swoje umiejętności i jednocześnie lepiej określić kierunek mojego rozwoju zawodowego.</br></br>
+            
+            Moje zainteresowania obejmują różne dziedziny — zarówno techniczne, jak i artystyczne. 
+            Ukończyłam szkołę muzyczną drugiego stopnia, brałam udział w licznych konkursach i występowałam na koncertach, co pozwoliło 
+            mi rozwinąć pewność siebie oraz umiejętność zarządzania czasem. W wolnych chwilach tworzę animacje, rysuję oraz 
+            projektuję aplikacje.</br></br>
+            
+            W przyszłości pragnę pracować na stanowisku, które pozwoli mi wykazać się kreatywnością oraz będzie stawiać przede mną 
+            nowe wyzwania związane z rozwojem technologii.</br></br></br>
+          </p>
+          </div>
+          </section>
+          <section id="contact-section">
+              <div>
+                <p></p>
+              <p class="me-paragraph poppins-regular"
+            style="font-size: 70px" data-pl="Kontakt" data-en="Contact">Kontakt</p>
+            <table>
+              <tr>
+                <td>
+                  <img src="phone-icon.PNG" style="height: 100px; border-radius: 100px; background: #819EAC;" />
+            <!--<button><img src="phone-icon.PNG"/></button>-->
+                </td>
+                <td><p class="poppins-extralight text-icons">
+                  *** *** *59
+                
+                </p> </br></br></td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="mail-icon.PNG" style="height: 100px; border-radius: 100px; background: #819EAC; " />
+            <!--<button><img src="mail-icon.PNG" class="icon-pics"/></button>-->
+                </td>
+                <td>
+            
+            <p class="poppins-extralight text-icons">ewka.wojciechowska12@wp.pl</p>
+          
+
+                </td>
+              </tr>
+            </table>
+          </br></br></br></br></br></br>
+            
+            
+            
+            
+          </div>
+        </section>
+        <section id="foot-section">
+          <p class="poppins-extralight" data-pl="Technologie użyte w tym projekcie: HTML, CSS, JavaScript, </br>GitHub do udostępnienia projektu strony, </br>Procreate do projektu ikon." 
+            data-en="Technologies used in this project: HTML, CSS, JavaScript, </br>GitHub to share a project of website, </br>Procreate to create icons.">
+            Technologie użyte w tym projekcie: HTML, CSS, JavaScript, <br>GitHub do udostępnienia projektu strony, <br>Procreate do projektu ikon.</p>
+          <p class="poppins-extralight" data-pl="2025, Ewa Wojciechowska. Wszelkie prawa zastrzeżone." data-en="2025, Ewa Wojciechowska. All rights reserved.">
+            2025, Ewa Wojciechowska. Wszelkie prawa zastrzeżone.</p>
+        </section>
+      </main>
+      <script>
+        document.addEventListener("DOMContentLoaded", () => {
+          const button = document.querySelector(".js-change-button");
+          const elementsToTranslate = document.querySelectorAll("[data-pl]");
+
+          button.addEventListener("click", () => {
+              const isPolish = button.innerHTML === "ENG";
+              button.innerHTML = isPolish ? "PL" : "ENG";
+
+              elementsToTranslate.forEach(element => {
+                  element.innerHTML = isPolish ? element.dataset.en : element.dataset.pl;
+              });
+
+              document.documentElement.lang = isPolish ? "en" : "pl";
+          });
+});
+      </script>
+     
+  </body>
+</html>
